@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Caveat", cursive;
+  width: 100%;
+  max-width: 500px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #cf9aff, #95c0ff);
+  padding: 15px;
+}
+
+.container {
+  padding-top: 200px;
+  padding-left: 100px;
+  color: #fff;
+}
+
+.container .title-notes {
+  display: flex;
+  align-items: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.container .title-notes img {
+  width: 60px;
+}
+
+.container .create-notes {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(135deg, #9418fd, #571094);
+  color: #fff;
+  font-size: 20px;
+  border-radius: 45px;
+  padding: 10px 26px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  margin-bottom: 30px;
+}
+.container .create-notes img {
+  width: 27px;
+  margin-right: 20px;
+}
+
+.container .notes-container .input-box {
+  outline: none;
+  width: 100%;
+  max-width: 550px;
+  min-height: 150px;
+  background-color: #fff;
+  color: #333;
+  padding: 15px;
+  margin: 20px 0;
+  font-size: 20px;
+  border-radius: 10px;
+  position: relative;
+}
+.container .notes-container img {
+  width: 25px;
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  cursor: pointer;
+}
